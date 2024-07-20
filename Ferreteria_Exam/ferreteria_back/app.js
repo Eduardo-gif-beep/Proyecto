@@ -4,7 +4,6 @@ const studentRoutes = require("./api/routes/student");
 const studentRoutesM = require("./api/routes/studentM");
 const mongoose = require("mongoose");
 const cors = require("cors");
-
 mongoose.connect("mongodb+srv://st3883:Titofer09@chris07.ufqczet.mongodb.net/?retryWrites=true&w=majority&appName=Chris07");
 
 app.use(express.urlencoded({ extended: false }));
